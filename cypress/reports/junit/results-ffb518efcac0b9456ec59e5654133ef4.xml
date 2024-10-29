@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.062" tests="4" failures="0">
+  <testsuite name="" timestamp="2024-10-29T09:53:29" tests="0" file="cypress\integration\GitHubTest.spec.ts" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2E UI test suite.GitHub UI and API Tests" timestamp="2024-10-29T09:53:29" tests="2" time="15.587" failures="0">
+    <testcase name="Should display the GitHub logo" time="5.584" classname="GitHub UI and API Tests">
+    </testcase>
+    <testcase name="Should navigate to Explore and Pricing pages correctly" time="9.916" classname="GitHub UI and API Tests">
+    </testcase>
+  </testsuite>
+  <testsuite name="E2E UI test suite.GitHub Public API Tests" timestamp="2024-10-29T09:53:44" tests="2" time="5.468" failures="0">
+    <testcase name="Should navigate to the sign-up page when &quot;Sign up&quot; is clicked" time="5.090" classname="GitHub Public API Tests">
+    </testcase>
+    <testcase name="Should retrieve public user information from GitHub API" time="0.335" classname="GitHub Public API Tests">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": false,
+    "allowJs": true,
+    "target": "es5",
+    "typeRoots": [ "../node_modules/@types", "../node_modules/Cypress/types" ],
+    "types": [ "cypress", "node" ],
+    "lib": [ "es5", "dom" ]
+  },
+  "include": [ "**/*.*" ]
+}
